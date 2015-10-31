@@ -43,7 +43,7 @@ while 1:
 		print 'Result not Declared !'
 		break
 if link:
-	print('Starting Automatic Download , Please wait while Download finishes.')
+	print('Starting Automatic Download , fetching results, please wait.')
 	command = ['wget', link]
 	output = subprocess.call(command) # Downloading Pdf Using wget.
 	print 'Have a Nice Day!!'
