@@ -1,4 +1,7 @@
-''' </> by Akul Mehra '''
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Author: akul08
+
 from bs4 import BeautifulSoup as bs # To parse the html page
 import subprocess # To run a command to download pdf.
 import requests # To Download the Html page of GGSIPU Results
